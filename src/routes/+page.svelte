@@ -16,7 +16,7 @@
 	const startTimer = () => {
 		timerInterval = setInterval(() => {
 			remainingTime--;
-		}, 1);
+		}, 1000);
 		isTimerStarted = true;
 	};
 
