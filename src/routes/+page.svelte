@@ -113,7 +113,7 @@
 		</Select.Content>
 	</Select.Root>
 
-	<div class="flex gap-2">
+	<div class="flex gap-2 mx-auto items-center justify-center">
 		<Button
 			onclick={isTimerStarted ? pauseTimer : startTimer}
 			class="rounded bg-purple-600 px-4 py-2 w-20 text-zinc-100 hover:bg-purple-700 dark:bg-purple-500 dark:hover:bg-purple-600"
