@@ -82,7 +82,7 @@
 	/>
 
 	<Select.Root type="single">
-		<Select.Trigger class="w-[25%]"
+		<Select.Trigger
 			>{triggerValue === 0
 				? 'Choose timer length'
 				: `${Number(triggerValue) + 1 === 1 ? `${triggerValue} minute` : `${triggerValue} minutes`}`}</Select.Trigger
