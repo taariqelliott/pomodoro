@@ -116,14 +116,14 @@
 	<div class="flex gap-2">
 		<Button
 			onclick={isTimerStarted ? pauseTimer : startTimer}
-			class="rounded bg-purple-600 px-4 py-2 text-zinc-100 hover:bg-purple-700 dark:bg-purple-500 dark:hover:bg-purple-600"
+			class="rounded bg-purple-600 px-4 py-2 w-20 text-zinc-100 hover:bg-purple-700 dark:bg-purple-500 dark:hover:bg-purple-600"
 		>
 			{isTimerStarted ? 'Pause' : 'Start'}
 		</Button>
 
 		<Button
 			onclick={resetTimer}
-			class="rounded bg-zinc-600 px-4 py-2 text-zinc-100 hover:bg-zinc-700 dark:bg-zinc-500 dark:hover:bg-zinc-600"
+			class="rounded bg-zinc-600 px-4 py-2 w-20 text-zinc-100 hover:bg-zinc-700 dark:bg-zinc-500 dark:hover:bg-zinc-600"
 		>
 			Reset
 		</Button>
